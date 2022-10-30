@@ -1,10 +1,10 @@
 {{#each beersRandomFromApi}}
-<div class="infoCervezas">
-    <img src={{this.image_url}} class="beer"/>
-    <div class="info">
+<div >
+    <img src={{this.image_url}} />
+    <div >
         <p>
             <h3>{{this.name}}</h3>
-            <p class="light">{{this.tagline}}</p>
+            <p>{{this.tagline}}</p>
         </p>
         <p>{{this.description}}</p>
         <p>{{this.brewers_tips}}</p>
